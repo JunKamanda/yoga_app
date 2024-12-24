@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+}
+i, button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition: 0.25s;
+    box-shadow: -20px 20px 60px #d16821, 20px -20px 60px #dd5d07;
+}
+button:hover{
+    transform: translateX(4px);
+}
+body{
+    background: url(../img/bg.jpeg) fixed center/cover;
+
+}
+h1{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin: 25px 0;
+}
+.fa-cog{
+    font-size: .7rem;
+    backdrop-filter: blur(2px);
+    padding: 10px 14px;
+    border-radius: 9px;
+    margin-left: 15px;
+    cursor: pointer;
+    transform: translateY(-5px);
+    background: #bb6c2b71;
+    box-shadow: -20px 20px 60px #d16821, 20px -20px 60px #dd5d07;
+}
+.btn-reboot{
+    backdrop-filter: blur(2px);
+    background: #bb6c2b71;
+    box-shadow: -20px 20px 60px #d16821, 20px -20px 60px #dd5d07;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+#start{
+    margin: 40px 0 80px;
+    background: #bb6c2b71;
+    padding: 14px 28px;
+    font-size: 1.8rem;
+    backdrop-filter: blur(3px);
+    border-radius: 16px;
+    font-weight: bold;
+}
+#start i{
+    transform: translate(8px, -1px);
+    color: #627c85;
+    font-size: 1.3rem;
+}
