@@ -156,7 +156,7 @@ li i:hover {
 .exercice-container {
   border-radius: 20px;
   backdrop-filter: blur(3px);
-  background: rgba(255, 255, 255, 0.503);
+  background: #ff821c7c;
   box-shadow: -20px 20px 60px #D48C58, 20px -20px 60px #172D3E;
   padding: 50px 0;
   width: 70%;
@@ -180,7 +180,7 @@ li i:hover {
 }
 .btn-reboot {
   backdrop-filter: blur(2px);
-  background: rgba(255, 255, 255, 0.281);
+  background: #ff821c7c;
   box-shadow: -20px 20px 60px #D48C58, 20px -20px 60px #172D3E;
   padding: 10px;
   border-radius: 12px;
